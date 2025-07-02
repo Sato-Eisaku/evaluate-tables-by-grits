@@ -16,4 +16,17 @@ logs/
 *.out
 
 # src
-src/
+src/__pycache__/
+src/*.sh
+*.pyc
+*.pyo
+*.pyd
+
+# data
+data/*
+!data/sample_gt
+!data/sample_input
+
+# scores
+scores/*
+!scores/score_YYYYMMDD_hhmmss

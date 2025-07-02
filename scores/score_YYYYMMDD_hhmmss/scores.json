@@ -1,0 +1,431 @@
+{
+  "datetime": "2025-07-02T15:21:59+09:00",
+  "results": [
+    {
+      "tool": "gpt-4o",
+      "num_tables": 76,
+      "scores": [
+        {
+          "doc_id": "1727422202",
+          "table_id": "page3_table3",
+          "grits_top": 0.8631578947368422,
+          "grits_con": 0.6403508771929828
+        },
+        {
+          "doc_id": "1727422202",
+          "table_id": "page1_table2",
+          "grits_top": 0.2833333333333334,
+          "grits_con": 0.17512783850059707
+        },
+        {
+          "doc_id": "1727422202",
+          "table_id": "page3_table2",
+          "grits_top": 0.9360902255639115,
+          "grits_con": 0.8713151927437618
+        },
+        {
+          "doc_id": "1727422202",
+          "table_id": "page1_table1",
+          "grits_top": 0.46825396825396814,
+          "grits_con": 0.4045105548864948
+        },
+        {
+          "doc_id": "1727422202",
+          "table_id": "page2_table1",
+          "grits_top": 0.9082125603864731,
+          "grits_con": 0.8359028767348936
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page13_table2",
+          "grits_top": 0.45454545454545453,
+          "grits_con": 0.12415824915824918
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page15_table1",
+          "grits_top": 0.23529411764705882,
+          "grits_con": 0.03986928104575163
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page16_table2",
+          "grits_top": 0.25,
+          "grits_con": 0.03296232876712329
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page10_table2",
+          "grits_top": 0.058823529411764705,
+          "grits_con": 0.02675240136540446
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page10_table1",
+          "grits_top": 0.6285714285714286,
+          "grits_con": 0.0782480218194504
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page21_table2",
+          "grits_top": 0.0,
+          "grits_con": 0.0
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page16_table1",
+          "grits_top": 0.5652173913043478,
+          "grits_con": 0.20496894409937882
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page6_table1",
+          "grits_top": 0.37777777777777777,
+          "grits_con": 0.17910353074705443
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page11_table2",
+          "grits_top": 0.6944444444444443,
+          "grits_con": 0.07231960899724056
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page15_table2",
+          "grits_top": 0.8571428571428571,
+          "grits_con": 0.08214285714285713
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page1_table2",
+          "grits_top": 0.5882352941176471,
+          "grits_con": 0.4100627136791888
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page14_table1",
+          "grits_top": 0.23529411764705882,
+          "grits_con": 0.03633217993079585
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page4_table1",
+          "grits_top": 0.7333333333333333,
+          "grits_con": 0.7333333333333333
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page14_table2",
+          "grits_top": 1.0,
+          "grits_con": 0.10094246031746032
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page21_table1",
+          "grits_top": 0.8571428571428571,
+          "grits_con": 0.08571428571428572
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page9_table1",
+          "grits_top": 0.2857142857142857,
+          "grits_con": 0.04073260073260074
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page13_table1",
+          "grits_top": 0.4545454545454546,
+          "grits_con": 0.054254634254634254
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page7_table1",
+          "grits_top": 0.37037037037037035,
+          "grits_con": 0.21372708054127088
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page18_table1",
+          "grits_top": 0.23529411764705882,
+          "grits_con": 0.029411764705882353
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page17_table1",
+          "grits_top": 0.4,
+          "grits_con": 0.025089605734767026
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page20_table1",
+          "grits_top": 0.19999999999999998,
+          "grits_con": 0.024999999999999998
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page18_table4",
+          "grits_top": 1.0,
+          "grits_con": 0.06900482558377295
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page12_table1",
+          "grits_top": 0.3989501312335958,
+          "grits_con": 0.050914772017134215
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page3_table1",
+          "grits_top": 0.3146067415730337,
+          "grits_con": 0.1513322163085617
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page17_table2",
+          "grits_top": 0.6274509803921569,
+          "grits_con": 0.05322128851540617
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page1_table1",
+          "grits_top": 0.5882352941176471,
+          "grits_con": 0.4210282092635034
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page20_table2",
+          "grits_top": 0.4,
+          "grits_con": 0.09000000000000001
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page19_table2",
+          "grits_top": 0.35294117647058826,
+          "grits_con": 0.17246947654917294
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page19_table1",
+          "grits_top": 0.6153846153846153,
+          "grits_con": 0.19957772844020719
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page12_table2",
+          "grits_top": 0.5517241379310345,
+          "grits_con": 0.0656075976856376
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page16_table3",
+          "grits_top": 1.0,
+          "grits_con": 0.09634911656970482
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page11_table1",
+          "grits_top": 0.30952380952380953,
+          "grits_con": 0.04788069073783359
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page18_table2",
+          "grits_top": 0.5454545454545454,
+          "grits_con": 0.07892107892107893
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page5_table1",
+          "grits_top": 0.5185185185185185,
+          "grits_con": 0.3700431869047853
+        },
+        {
+          "doc_id": "1727425836",
+          "table_id": "page18_table3",
+          "grits_top": 0.4,
+          "grits_con": 0.06419614867890729
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page13_table2",
+          "grits_top": 0.7205882352941176,
+          "grits_con": 0.6850786468433526
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page10_table1",
+          "grits_top": 0.7205882352941176,
+          "grits_con": 0.6850786468433526
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page6_table1",
+          "grits_top": 0.7250000000000001,
+          "grits_con": 0.6624160561660561
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page8_table1",
+          "grits_top": 0.8833333333333334,
+          "grits_con": 0.8219890040383396
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page9_table1",
+          "grits_top": 0.7941176470588235,
+          "grits_con": 0.7552856601299506
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page13_table1",
+          "grits_top": 0.7205882352941176,
+          "grits_con": 0.6797565179918119
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page7_table1",
+          "grits_top": 0.7205882352941176,
+          "grits_con": 0.681927386339151
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page12_table1",
+          "grits_top": 0.71875,
+          "grits_con": 0.6777265745007679
+        },
+        {
+          "doc_id": "1727425859",
+          "table_id": "page11_table1",
+          "grits_top": 0.7205882352941176,
+          "grits_con": 0.6855580693815986
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page7_table2",
+          "grits_top": 0.9642857142857143,
+          "grits_con": 0.9433619325536619
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page5_table4",
+          "grits_top": 0.8977272727272729,
+          "grits_con": 0.872487739533194
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page6_table1",
+          "grits_top": 0.9,
+          "grits_con": 0.8626558000822706
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page8_table1",
+          "grits_top": 0.9666666666666667,
+          "grits_con": 0.8859265734265734
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page9_table3",
+          "grits_top": 0.9285714285714286,
+          "grits_con": 0.8232392607392608
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page8_table5",
+          "grits_top": 0.9285714285714286,
+          "grits_con": 0.8896103896103895
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page4_table1",
+          "grits_top": 0.8874458874458876,
+          "grits_con": 0.8804310826613031
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page9_table1",
+          "grits_top": 0.9714285714285714,
+          "grits_con": 0.9439331200200765
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page7_table1",
+          "grits_top": 0.9714285714285714,
+          "grits_con": 0.9520921434455268
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page8_table2",
+          "grits_top": 0.9285714285714286,
+          "grits_con": 0.8143106893106893
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page3_table1",
+          "grits_top": 0.8080808080808078,
+          "grits_con": 0.8036198848863788
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page7_table5",
+          "grits_top": 0.9285714285714286,
+          "grits_con": 0.9035964035964036
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page8_table3",
+          "grits_top": 0.9285714285714286,
+          "grits_con": 0.8198051948051946
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page7_table4",
+          "grits_top": 0.9761904761904762,
+          "grits_con": 0.9529392634655793
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page8_table4",
+          "grits_top": 0.9,
+          "grits_con": 0.8818181818181818
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page7_table3",
+          "grits_top": 0.98,
+          "grits_con": 0.9073801590566296
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page5_table2",
+          "grits_top": 0.9714285714285714,
+          "grits_con": 0.9275328981762653
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page5_table3",
+          "grits_top": 0.9714285714285714,
+          "grits_con": 0.887878787878788
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page5_table1",
+          "grits_top": 0.9523809523809523,
+          "grits_con": 0.9148692577264006
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page9_table2",
+          "grits_top": 0.9841269841269841,
+          "grits_con": 0.9456204085258605
+        },
+        {
+          "doc_id": "1727427733",
+          "table_id": "page6_table2",
+          "grits_top": 0.9942857142857143,
+          "grits_con": 0.9067283710441604
+        }
+      ]
+    }
+  ]
+}

@@ -13,15 +13,15 @@ from grits import grits_con, grits_top
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-p", "--predict", required=True, help="推論 (評価したい) データのパス")
-    parser.add_argument("-g", "--grandtruth", required=True, help="正解データのパス")
-    parser.add_argument("-s", "--score", required=True, help="スコアファイルの出力パス")
+    parser.add_argument("-p", "--predict", default="../data/sample_input", help="推論 (評価したい) データのパス")
+    parser.add_argument("-g", "--groundtruth", default="../data/sample_gt", help="正解データのパス")
+    parser.add_argument("-s", "--score", default="../scores", help="スコアファイルの出力パス")
     args = parser.parse_args()
 
     # 抽出データのルートディレクトリパス
     pred_dir = Path(args.predict)
     # 正解データのルートディレクトリパス
-    gt_dir = Path(args.grandtruth)
+    gt_dir = Path(args.groundtruth)
     # スコア記録用のルートディレクトリパス
     score_dir = Path(args.score)
 
@@ -47,11 +47,6 @@ def main():
         tool_name = pred_tool.name
         print(f"{tool_name=}")
         temp_scores_json["tool"] = re.sub(r"\d\d_", "", tool_name)
-        # debug1
-        if tool_name == "00_unstructured":
-            continue
-        # if tool_name != "00_AzureAiDocumentIntelligence":
-            # continue
         # あるツールに対して、ドキュメントごとに処理
         for pred_doc in pred_tool.glob("*"):
         # for pred_doc in pred_tool.glob("*"):
@@ -86,13 +81,11 @@ def main():
                     "grits_con": metrics["grits_con"]
                 }
                 temp_scores_json["scores"].append(score)
-            # break
         scores_json["results"].append(temp_scores_json)
-        # break
 
     # スコア情報のJSONを保存
     print(json.dumps(scores_json, indent=2))
-    save_score_dir = score_dir / f"Score_{dt.strftime('%Y%m%d_%H%M%S')}"
+    save_score_dir = score_dir / f"score_{dt.strftime('%Y%m%d_%H%M%S')}"
     os.makedirs(save_score_dir)
     with open((save_score_dir / "scores.json"), "w") as f:
         json.dump(scores_json, f, indent=2)
